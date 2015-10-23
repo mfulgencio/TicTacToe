@@ -15,6 +15,7 @@
 		8BEAE3111BD9FA1A00D78E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEAE30F1BD9FA1A00D78E30 /* LaunchScreen.storyboard */; };
 		8BEAE31C1BD9FA1A00D78E30 /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEAE31B1BD9FA1A00D78E30 /* TicTacToeTests.m */; };
 		8BEAE3271BD9FA1A00D78E30 /* TicTacToeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEAE3261BD9FA1A00D78E30 /* TicTacToeUITests.m */; };
+		8BEAE3361BD9FB4500D78E30 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEAE3351BD9FB4500D78E30 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8BEAE3221BD9FA1A00D78E30 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEAE3261BD9FA1A00D78E30 /* TicTacToeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeUITests.m; sourceTree = "<group>"; };
 		8BEAE3281BD9FA1A00D78E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEAE3341BD9FB4500D78E30 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8BEAE3351BD9FB4500D78E30 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8BEAE3051BD9FA1A00D78E30 /* AppDelegate.m */,
 				8BEAE3071BD9FA1A00D78E30 /* ViewController.h */,
 				8BEAE3081BD9FA1A00D78E30 /* ViewController.m */,
+				8BEAE3341BD9FB4500D78E30 /* SettingsViewController.h */,
+				8BEAE3351BD9FB4500D78E30 /* SettingsViewController.m */,
 				8BEAE30A1BD9FA1A00D78E30 /* Main.storyboard */,
 				8BEAE30D1BD9FA1A00D78E30 /* Assets.xcassets */,
 				8BEAE30F1BD9FA1A00D78E30 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				8BEAE3091BD9FA1A00D78E30 /* ViewController.m in Sources */,
 				8BEAE3061BD9FA1A00D78E30 /* AppDelegate.m in Sources */,
 				8BEAE3031BD9FA1A00D78E30 /* main.m in Sources */,
+				8BEAE3361BD9FB4500D78E30 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
